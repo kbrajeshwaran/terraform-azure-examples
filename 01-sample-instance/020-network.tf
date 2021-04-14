@@ -1,5 +1,5 @@
 # Vpc creation
-resource "azurerm_virtual_network" "generic" {
+resource "azurerm_virtual_network" "generic1" {
   name                = "network-generic"
   address_space       = ["10.0.0.0/16"]
   location            = azurerm_resource_group.generic.location
